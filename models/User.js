@@ -22,4 +22,4 @@ const userSchema = new Schema({
 });
 
 // Creamos y exportamos el modelo basado en el esquema
-export const User = model('User', userSchema);
+export default mongoose.model('User', userSchema);
